@@ -1,0 +1,63 @@
+@import url('/assets/css/colors.css');
+@import url('/assets/css/fonts.css');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Menlo";
+    color: var(--foreground-color);
+    max-width: 85em;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+::selection {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+
+a, a:link, a:visited {
+    color: var(--accent-color);
+    transition: 0.15s linear;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    transition: 0.15s linear;
+}
+
+header ul, header li, header ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 5px;
+}
+
+header, .footer {
+    padding: 10px;
+    margin: -5px;
+    border: 1px solid var(--outline);
+}
+
+.outline {
+    border: 1px solid var(--outline);
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    color: var(--outline);
+}
+
+.body-contents {
+    padding: 10px;
+    margin: -10px;
+}
+
+h1 {
+    border-bottom: 2px solid var(--outline);
+}

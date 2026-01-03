@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="author" content="James Taylor [khaoticculprit]" />
+<meta name="description" content="Tiny Homelab - Documenting my homelab!" />
+
+<link rel="stylesheet" href="/assets/css/base.css" type="text/css" />
+<link rel="icon" href="/assets/img/icon.png" type="image/png" />
+        <title>My Current Homelab &mdash; Tiny Homelab</title>
+    </head>
+
+    <body>
+        <header>
+    <ul>
+        <a href="/"><li>Home</li></a>
+        <a href="/posts/"><li>All Posts</li></a>
+    </ul>
+</header>        
+        <div class="body-contents">
+            <h1>My Current Homelab <small>(Jan. 1st 2026)</small></h1>
+
+            <p>
+                As this website is dedicated to my homelab and documenting that, I should probably go through what is in my current homelab. It's not very much but it does the job for me. As of writing, this is all accurate, though I suspect it will change over the year.
+                I do want to get some rack mounted equipment at some point, but we'll see how that goes. I also want to do some Raspberry Pi or <x title="Single Board Computer">SBC</x> stuff in terms of homelabbing, or even some Mini PC stuff. Who knows?
+            </p>
+
+            <div class="outline">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#main-pc">My Main PC</a></li>
+                    <li><a href="#z230">The Server</a></li>
+                    <li><a href="#networking">Networking Equipment</a></li>
+                </ul>
+            </div>
+
+            <h2 id="main-pc">My Main PC</h2>
+            <p>
+                My main PC specs make no sense, and isn't <i>technically</i> part of the homelab but I'm putting it here beacuse I want to show off the fact I have RAM in 2026, and for some reason run 2 GPUs.
+            </p>
+
+            <ul>
+                <li>CPU: AMD Ryzen 5 5500 (AM4) @ 4.2GHz</li>
+                <li>RAM: 64GB DDR4-3200MT/s</li>
+                <li>GPU: NVIDIA GeForce RTX 2060, NVIDIA GeForce GTX 970</li>
+                <li>M/B: ASRock B550 Phantom Gaming 4</li>
+                <li>Storage: 1x 500GB NVMe - Boot, 1x 1TB NVMe - Quick Storage, 1x 4TB Seagate Barracuda - Steam Library</li>
+                <li>OS: Arch Linux</li>
+                <li>Case: <a href="https://www.coolermaster.com/en-global/products/cm-690-ii-advanced-bw-edition-usb3/">Cooler Master CM 690 II Advanced Black & White Edition (USB 3.0 version)</a></li>
+                <li>Network: 1x WiFi 6E AX210 WLAN Card, 1x 2.5GbE Realtek LAN PCIe Card</li>
+            </ul>
+
+            <h2 id="z230">The Server</h2>
+            <p>
+                This "server" is actually just an HP Z230 Tower Workstation that I originally bought because I wanted to use it as a case, then I bought a CPU for it, used it as a Windows XP machine for a little bit, then turned it into the server.
+                At some point I want to get an <x title="Host Bus Adaptor">HBA</x> and use a <x title="Just-a-Bunch-Of-Disks">JBOD</x> for more storage, as the Z230 board only has 5 SATA ports, and I've used them all.
+            </p>
+
+            <ul>
+                <li>CPU: <a href="https://www.intel.com/content/www/us/en/products/sku/75056/intel-xeon-processor-e31270-v3-8m-cache-3-50-ghz/specifications.html">Intel Xeon E3-1270v3 @ 3.5GHz</a></li>
+                <li>RAM: 32GB ECC DDR3 (Speed unknown, and I don't care enough to check)</li>
+                <li>GPU: MSI NVIDIA GeForce GTX 1650</li>
+                <li>OS: TrueNAS Community Edition</li>
+                <li>Apps: Home Assistant, Immich, Jellyfin, Monitee Agent, qBittorrent, Tailscale, Vaultwarden</li>
+                <li>Storage: 1x 240GB SSD (SATA) - Boot Drive, 2x 4TB Seagate Barracuda - RAID0 - Storage/Archive, 2x 2TB Samsung HDDs - RAID0 - Media Storage</li>
+            </ul>
+
+            <h2 id="networking">Networking Equipment</h2>
+            <p>
+                My networking equipment is very basic. It just extends the Wi-Fi from downstairs to the room. That's pretty much all. I do have plans for networking though.
+            </p>
+
+            <ul>
+                <li>Wi-Fi Extender: TP-Link RE315</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+    <p>
+        Copyright &copy; 2026 - James T. &mdash; james (at) tinyhomelab (dot) uk<br><br>
+        Please do not email me about job opportunities or projects - I am not interested and you will 
+        get no reply.
+    </p>
+</div>    </body>
+</html>
